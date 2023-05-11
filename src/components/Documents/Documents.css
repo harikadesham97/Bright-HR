@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+}
+
+th.default {
+  background-image: url("../../images/sort-solid.svg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 8px;
+}
+
+th.asc {
+  background-image: url("../../images/sort-up-solid.svg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 8px;
+}
+
+th.desc {
+  background-image: url("../../images/sort-down-solid.svg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
